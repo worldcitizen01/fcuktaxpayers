@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Static Website</title>
+    <style>
+        /* Add your CSS styles here */
+    </style>
+</head>
+<body>
+    <div class="tabs">
+        <button onclick="openTab('tab1')">Tab 1</button>
+        <button onclick="openTab('tab2')">Tab 2</button>
+        <button onclick="openTab('tab3')">Tab 3</button>
+        <button onclick="openTab('tab4')">Tab 4</button>
+        <button onclick="openTab('tab5')"></button>
+    </div>
+
+    <div id="tab1" class="tab-content">
+        <table>
+            <tr>
+                <th>Corrupt Topper Rank</th>
+                <th>Fk Name</th>
+                <th>Wife Name</th>
+                <th>Father Name</th>
+                <th>Mother Name</th>
+                <th>Origin</th>
+                <th>Related to</th>
+                <th>Last department</th>
+                <th>Bribe Money gained</th>
+                <th>Tax Money wasted</th>
+                <th>Recovered</th>
+                <th>Punishment Given</th>
+                <th>Family benefitory of this illegal money</th>
+                <th>Appendix Links</th>
+            </tr>
+            <tr>
+                <td>Row 1 Data 1</td>
+                <td>Row 1 Data 2</td>
+                <td>Row 1 Data 3</td>
+                <td>Row 1 Data 4</td>
+                <td>Row 1 Data 5</td>
+                <td>Row 1 Data 6</td>
+                <td>Row 1 Data 7</td>
+                <td>Row 1 Data 8</td>
+                <td>Row 1 Data 9</td>
+                <td>Row 1 Data 10</td>
+            </tr>
+            <tr>
+                <td>Row 2 Data 1</td>
+                <td>Row 2 Data 2</td>
+                <td>Row 2 Data 3</td>
+                <td>Row 2 Data 4</td>
+                <td>Row 2 Data 5</td>
+                <td>Row 2 Data 6</td>
+                <td>Row 2 Data 7</td>
+                <td>Row 2 Data 8</td>
+                <td>Row 2 Data 9</td>
+                <td>Row 2 Data 10</td>
+            </tr>
+            <tr>
+                <td>Row 3 Data 1</td>
+                <td>Row 3 Data 2</td>
+                <td>Row 3 Data 3</td>
+                <td>Row 3 Data 4</td>
+                <td>Row 3 Data 5</td>
+                <td>Row 3 Data 6</td>
+                <td>Row 3 Data 7</td>
+                <td>Row 3 Data 8</td>
+                <td>Row 3 Data 9</td>
+                <td>Row 3 Data 10</td>
+            </tr>
+            <tr>
+                <td>Row 4 Data 1</td>
+                <td>Row 4 Data 2</td>
+                <td>Row 4 Data 3</td>
+                <td>Row 4 Data 4</td>
+                <td>Row 4 Data 5</td>
+                <td>Row 4 Data 6</td>
+                <td>Row 4 Data 7</td>
+                <td>Row 4 Data 8</td>
+                <td>Row 4 Data 9</td>
+                <td>Row 4 Data 10</td>
+            </tr>
+            <tr>
+                <td>Row 5 Data 1</td>
+                <td>Row 5 Data 2</td>
+                <td>Row 5 Data 3</td>
+                <td>Row 5 Data 4</td>
+                <td>Row 5 Data 5</td>
+                <td>Row 5 Data 6</td>
+                <td>Row 5 Data 7</td>
+                <td>Row 5 Data 8</td>
+                <td>Row 5 Data 9</td>
+                <td>Row 5 Data 10</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Add more tab content divs for Tab 2 to Tab 5 -->
+
+    <script>
+        function openTab(tabName) {
+            // Hide all tab content
+            var tabContents = document.getElementsByClassName('tab-content');
+            for (var i = 0; i < tabContents.length; i++) {
+                tabContents[i].style.display = 'none';
+            }
+
+            // Show the selected tab content
+            document.getElementById(tabName).style.display = 'block';
+        }
+    </script>
+</body>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+    }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    th, td {
+        border: 1px solid #ddd;
+        text-align: left;
+        padding: 8px;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+</style>
+</html>
